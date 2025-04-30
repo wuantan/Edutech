@@ -1,55 +1,53 @@
 package com.example.Edutech;
 
 public class Curso {
-    private string id_curso, nombre, descripccion, id_instructor, categoria;
+    private String id_curso, nombre, descripcion, id_instructor, categoria;
 
-    public Curso(string id_curso, string nombre, string descripccion, string id_instructor, string categoria) {
+    public Curso(String id_curso, String nombre, String descripcion, String id_instructor, String categoria) {
         this.id_curso = id_curso;
         this.nombre = nombre;
-        this.descripccion = descripccion;
+        this.descripcion = descripcion;
         this.id_instructor = id_instructor;
         this.categoria = categoria;
     }
 
-    public string getId_curso() {
+    public String getId_curso() {
         return id_curso;
     }
 
-    public string getNombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    public string getDescripccion() {
-        return descripccion;
+    public String getDescripcion() {
+        return descripcion;
     }
 
-    public string getId_instructor() {
+    public String getId_instructor() {
         return id_instructor;
     }
 
-    public string getCategoria() {
+    public String getCategoria() {
         return categoria;
     }
 
-    public void setId_curso(string id_curso) {
+    public void setId_curso(String id_curso) {
         this.id_curso = id_curso;
     }
 
-    public void setNombre(string nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public void setDescripccion(string descripccion) {
-        this.descripccion = descripccion;
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
     }
 
-    public void setId_instructor(string id_instructor) {
+    public void setId_instructor(String id_instructor) {
         this.id_instructor = id_instructor;
     }
 
-    public void setCategoria(string categoria) {
+    public void setCategoria(String categoria) {
         this.categoria = categoria;
-    }:
-
-    
+    }
 }
