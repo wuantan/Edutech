@@ -2,6 +2,8 @@ package com.example;
 
 import java.util.Date;
 
+//por que usuario esta fuerda de la carpeta edutech?
+
 public class Usuario {
 
     public String id_user,nom_User,correo_user,rol;
