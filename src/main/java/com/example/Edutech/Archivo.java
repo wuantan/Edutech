@@ -1,5 +1,7 @@
 package com.example.Edutech;
 
+//jdbc:mariadb://localhost:3306/spring
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
